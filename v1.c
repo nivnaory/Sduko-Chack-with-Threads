@@ -59,7 +59,7 @@ int main(int argc,char  *argv[]) {
 		/* Last thing that main() should do */
 		pthread_exit(NULL);
 	}
-       // check the row of the Possible solution
+       // check the row of there is  Possible solution
 	void *checkRowSuduko(void *param) {
 		// access to parameters passed to this thread
 		int tid = *(int *) param;
@@ -195,7 +195,7 @@ int main(int argc,char  *argv[]) {
 		// Clean exit
 
 	}
-// check the column of the Possible solution
+// check the column of there is  Possible solution
 
 	void *checkColSuduko(void *param){
 		int tid = *(int *) param;
@@ -312,7 +312,7 @@ int main(int argc,char  *argv[]) {
 
 		}
 	}
-       //check sub matrix of the possible solution 
+       //check sub matrix of there is  possible solution 
 	void *checksubMatrixSuduko(void *param){
 		int tid = *(int *) param;
 		switch(tid){
