@@ -21,7 +21,7 @@ int main(int argc,char  *argv[]) {
 		FILE *fp;
 		int rc;
 		int t;
-                //open file to and read the matrix from file
+                //open file to  read  the  possible solution  from file
 		fp=fopen(argv[1],"r");
 		for (int i=0;i<ROW;i++){
 			for (int j=0;j<COL;j++){
